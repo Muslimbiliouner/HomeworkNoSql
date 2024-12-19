@@ -124,7 +124,7 @@ Berikut adalah diagram sederhana arsitektur sistem hybrid SQL dan NoSQL:
 - NoSQL: Memiliki biaya hosting yang lebih tinggi untuk skala besar, tetapi sebanding dengan manfaatnya.
 
 **Pemulihan Data**
-- SQL: Backup berbasis [**snapshot atau dump file.**](sanpshot-vs-dump-file.md#snapshot-vs-dump-file:-panduan-lengkap)
+- SQL: Backup berbasis [**snapshot atau dump file.**](snapshot-vs-dump-file.md#snapshot-vs-dump)
 - NoSQL: Backup per node dengan alat seperti MongoDB Atlas Backup.
 
 **Penilaian Keberhasilan**
