@@ -84,10 +84,10 @@ Berikut adalah diagram sederhana arsitektur sistem hybrid SQL dan NoSQL:
 
 ## 🪜 Langkah-Langkah Migrasi
 
-Identifikasi Modul: Mulai dari modul kecil seperti data produk.
-Gunakan Alat Migrasi: Gunakan Apache NiFi atau AWS DMS untuk memindahkan data dari SQL ke NoSQL.
-Pengujian Skala Kecil: Uji coba di lingkungan staging sebelum ke produksi.
-Implementasi Hybrid: Kombinasikan SQL untuk transaksi dan NoSQL untuk data yang sering berubah.
+- Identifikasi Modul: Mulai dari modul kecil seperti data produk.
+- Gunakan Alat Migrasi: Gunakan Apache NiFi atau AWS DMS untuk memindahkan data dari SQL ke NoSQL.
+- Pengujian Skala Kecil: Uji coba di lingkungan staging sebelum ke produksi.
+- Implementasi Hybrid: Kombinasikan SQL untuk transaksi dan NoSQL untuk data yang sering berubah.
 
 ## 🎨 Visualisasi Proses Migrasi
 
@@ -115,22 +115,22 @@ Implementasi Hybrid: Kombinasikan SQL untuk transaksi dan NoSQL untuk data yang 
 ## 🔍 Analisis Tambahan
 
 **Keamanan**
-Kontrol Akses: Pastikan konfigurasi akses ketat untuk NoSQL.
-Enkripsi Data: Terapkan enkripsi untuk data saat transit dan saat disimpan.
-Monitoring: Gunakan alat seperti ELK Stack untuk memantau aktivitas database.
+- Kontrol Akses: Pastikan konfigurasi akses ketat untuk NoSQL.
+- Enkripsi Data: Terapkan enkripsi untuk data saat transit dan saat disimpan.
+- Monitoring: Gunakan alat seperti ELK Stack untuk memantau aktivitas database.
 
 **Analisis Biaya**
-SQL: Cocok untuk beban kerja kecil, tetapi lisensi untuk teknologi komersial bisa mahal.
-NoSQL: Memiliki biaya hosting yang lebih tinggi untuk skala besar, tetapi sebanding dengan manfaatnya.
+- SQL: Cocok untuk beban kerja kecil, tetapi lisensi untuk teknologi komersial bisa mahal.
+- NoSQL: Memiliki biaya hosting yang lebih tinggi untuk skala besar, tetapi sebanding dengan manfaatnya.
 
 **Pemulihan Data**
-SQL: Backup berbasis **snapshot atau dump file.**
-NoSQL: Backup per node dengan alat seperti MongoDB Atlas Backup.
+- SQL: Backup berbasis [**snapshot atau dump file.**]
+- NoSQL: Backup per node dengan alat seperti MongoDB Atlas Backup.
 
 **Penilaian Keberhasilan**
-Waktu Respons: Apakah performa database meningkat?
-Stabilitas Sistem: Apakah sistem berjalan tanpa downtime?
-Skalabilitas: Apakah sistem mampu menangani lonjakan data?
+- Waktu Respons: Apakah performa database meningkat?
+- Stabilitas Sistem: Apakah sistem berjalan tanpa downtime?
+- Skalabilitas: Apakah sistem mampu menangani lonjakan data?
 
 
 ## 🏁 Kesimpulan
